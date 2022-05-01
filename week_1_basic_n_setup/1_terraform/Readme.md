@@ -25,3 +25,16 @@ La commande `init` permet de créer un répertoire de travail qui va contenir le
 #### 2) terraform plan
 
 La commande `plan` permet de créer le plan d'exécution. Il va se baser sur les informations contenues dans les fichiers de configuration `main.tf` et `variables.tf`.
+
+#### 3) terraform apply
+
+Lors de l'utilisation de la commande `apply`, le plan d'exécution crée au préalable va être mis en place. L'infrastructure va se construire (et se modifier) en se basant sur les informations présentes dans les fichiers de configuration. Si la commande `plan` n'a pas été réalisé avant le plan d'exécution est automatiquement construit. Cette opération prend quelques secondes à être réalisé. 
+
+#### 4) terraform destroy
+
+Enfin lorsque l'on n'a plus besoin de l'infrastructure crée dans le cloud, on va la détruire à l'aide de la commande `destroy`. La destruction d'une infrastructure sur le cloud est recommandée pour éviter la génération de frais supplémentaires lorsqu'on ne l'utilise pas et que sa sauvegarde n'est pas nécessaire. 
+
+## Google Cloud Platform
+
+![GCP_services](images/gcp_services.png)
+
