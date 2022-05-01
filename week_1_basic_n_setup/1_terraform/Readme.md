@@ -16,6 +16,8 @@ Pour construire l'infrastructure dont on a besoin, on va créer des fichiers de 
 
 On va avoir 3 (4 étapes) dans le cycle de vie d'une infrastructure avec Terraform. 
 
+![lifecycle terraform](images/cycle_terraform.png)
+
 #### 1) terraform init
 
 La commande `init` permet de créer un répertoire de travail qui va contenir les informations nécessaires à Terraform. C'est l'équivalent de commande `init` que l'on retrouve dans d'autres outils comme `git init`.
