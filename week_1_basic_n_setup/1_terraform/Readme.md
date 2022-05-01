@@ -14,4 +14,4 @@ Pour construire l'infrastructure dont on a besoin, on va créer des fichiers de 
 
 ### Le cycle de vie de Terraform
 
-[Cycle_Terraform](/home/cecile/Documents/data-engineering-zoomcamp/week_1_basic_n_setup/1_terraform/images/cycle_terraform.png)
+[Cycle_Terraform](/images/cycle_terraform.png)
