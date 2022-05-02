@@ -11,4 +11,9 @@ Dans cette première partie, on va s'intéresser aux bases de l'ingénierie de l
 
 ## Semaine 2 : Ingestion de données
 
-[En cours...]
+Après avoir vu les différences entre Data Lake et Data Warehouse, on va chercher à définir ce qu'est un workflow d'orchestration. On va ensuite apprendre à créer ces flux d'orchestration à l'aide de l'outil Airflow. A la fin de cette partie, on sera capable de :
+- Différencier un Data lake et un data Warehouse
+- Savoir ce qu'est un workflow d'orchestration
+- Ingérer des données dans un Data Lake à l'aide d'outil d'orchestration comme Airflow
+
+## Semaine 3 : Data Warehouse
