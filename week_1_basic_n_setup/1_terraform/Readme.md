@@ -71,3 +71,5 @@ Comme il a été expliqué plus haut ce qui a été présenté avec Terraform et
 - [Azure SDK](https://docs.microsoft.com/fr-fr/cli/azure/install-azure-cli)
 
 ![Azure_services](images/azure.png)
+
+Source : [Adapté du cours de DataTalks Club](https://github.com/DataTalksClub/data-engineering-zoomcamp/tree/main/week_1_basics_n_setup/1_terraform_gcp)
