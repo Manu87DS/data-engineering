@@ -28,3 +28,14 @@ Dans notre exemple, on s'intéresse à la construction d'une base de données av
 [Docker Hub](https://hub.docker.com/) est une plateforme qui permet d'envoyer ces images Docker sur une plateforme dans le but de les rendre disponible pour tous. On va aussi y retrouver des images d'outils dont on pourrait avoir besoin. 
 
 ![Docker_Hub_image](images/Docker_Hub.png)
+
+## SQL
+
+SQL est un langage de programmation très utilisé pour le requêtage de bases de données relationnel. Une fois que l'on aura construit notre base de données et qu'on aura ingérer nos données, il sera possible d'utiliser le langage SQL pour obtenir des informations mais aussi pour pouvoir réaliser de puissantes analyses de données. 
+
+- [Généralités sur le SQL](https://sql.sh/)
+- [Cours d'introduction au SQL](https://en.khanacademy.org/computing/computer-programming/sql)
+- [Un livre pour ceux qui veulent aller plus loin](https://www.oreilly.com/library/view/sql-for-data/9781492088776/)
+
+
+Source : [Adapté de bootcamp de DataTalksClub](https://github.com/DataTalksClub/data-engineering-zoomcamp/tree/main/week_1_basics_n_setup/2_docker_sql)
