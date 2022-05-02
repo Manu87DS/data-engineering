@@ -38,4 +38,4 @@ SQL est un langage de programmation très utilisé pour le requêtage de bases d
 - [Un livre pour ceux qui veulent aller plus loin](https://www.oreilly.com/library/view/sql-for-data/9781492088776/)
 
 
-Source : [Adapté de bootcamp de DataTalksClub](https://github.com/DataTalksClub/data-engineering-zoomcamp/tree/main/week_1_basics_n_setup/2_docker_sql)
+Source : [Adapté du bootcamp de DataTalksClub](https://github.com/DataTalksClub/data-engineering-zoomcamp/tree/main/week_1_basics_n_setup/2_docker_sql)
