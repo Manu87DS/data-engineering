@@ -25,9 +25,9 @@ La semaine dernière, on avait crée un data pipeline en une seule étape. Avec 
 Cette semaine, on va compliquer les choses en faisant quelque chose de beaucoup plus sécurisée. On va séparer notre script en plusieurs étapes pour créer un workflow permettant l'ingestion de données dans notre datalake. Tout d'abord, on va télécharger les données provenant du site de la [ville de New York](https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page). Après avoir téléchargé ces données au format *csv*, on va les transformer en un format plus optimal qui est le format *parquet* ([Définition du format parquet](https://databricks.com/fr/glossary/what-is-parquet)), les données au format parquet vont être ingérer dans Google Cloud Storage et enfin, on va créer une base de données avec BigQuery que l'on pourra requêter avec des requêtes SQL. 
 
 Pour orchestrer ce workflow, on va retrouver plusieurs outils : 
-- Luigi,
+- [Luigi](https://luigi.readthedocs.io/en/stable/index.html),
 - Apache Airflow,
-- Prefect
+- [Prefect](https://www.prefect.io/)
 
 ## Airflow
 
