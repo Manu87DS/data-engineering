@@ -59,7 +59,7 @@ x-airflow-common:
     AIRFLOW__CORE__LOAD_EXAMPLES: 'true'
     AIRFLOW__API__AUTH_BACKENDS: 'airflow.api.auth.backend.basic_auth'
     _PIP_ADDITIONAL_REQUIREMENTS: ${_PIP_ADDITIONAL_REQUIREMENTS:-}
-    GOOGLE_APPLICATION_CREDENTIALS: Documents/data-engineering-zoomcamp/google_credentials.json
+    GOOGLE_APPLICATION_CREDENTIALS: google_credentials.json
     GCP_PROJECT_ID: "dtc-de-course-348819"
     GCP_GCS_BUCKET: "dtc_data_lake_dtc-de-course-348819"
   volumes:
